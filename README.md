@@ -29,7 +29,7 @@ Step 2:
 Open cutcom software in the wortstation 
 1. select the devices: /dev/ttyUSB3
 
-AT Commands Type insde the cotecom prompt window
+Type AT Commands insde the cutecom prompt window
 1. ATI
 2. at+cfun=0																											
 3. at+cfun=1																											
