@@ -1,8 +1,9 @@
 # Install drivers inside the Workstation used Linux OS (Ubuntu 22.04 LTS)
 Step 0:
-1. Update firmware
-2. cd QFirehose_Linux_Android_V1.4.16/
-3. sudo ./QFirehose -f ../firmware/update/firehose/
+1. Git clone the drivers and extract them. Open in terminal inside main dir of drivers "cd quectel".
+2. Update firmware
+3. cd QFirehose_Linux_Android_V1.4.16/
+4. sudo ./QFirehose -f ../firmware/update/firehose/
 
 Step 1:
 1. Compile and install kernel module
