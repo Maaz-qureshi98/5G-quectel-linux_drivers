@@ -1,5 +1,4 @@
 # Install drivers inside the Workstation used Linux OS (Ubuntu 22.04 LTS)
-'''
 Step 0:
 1. Update firmware
 2. cd QFirehose_Linux_Android_V1.4.16/
@@ -9,12 +8,11 @@ Step 1:
 1. Compile and install kernel module
 2. sudo modprobe qmi_wwan_q
 
-Step 2: MAIN STEP
-Start driver
+Step 2: 
+**Start driver
 cd quectel
 sudo ./Quectel_QConnectManager_Linux_V1.6.5/quectel-CM -4 -6 -s ltemobile.apn
-'''
-//
+**
 # Install Cutecom software on workstation to check the 5G devices logs 
 Atache the usd cable of device to worstation, allow the usb pot permission from the terminal, follow the below steps:
 1. ls /dev/ttyUSB*
@@ -40,13 +38,13 @@ AT Commands Type insde the cotecom prompt window
 
 Some common commands used: 
 in seperate terminal 
-m23qures@maaz-robotics:~$ ip addr show 
-m23qures@maaz-robotics:~$ ping -I wwan0 8.8.8.8
-m23qures@maaz-robotics:~$ ping -I wwan0 robohub.eng.uwaterloo.ca
-m23qures@maaz-robotics:~$ ping -I wwan0 -4 robohub.eng.uwaterloo.ca
-m23qures@maaz-robotics:~$ scp -r quectel/
-m23qures@maaz-robotics:~$ scp -r quectel/qmi_wwan/robohub@labwork5:robohub/quectel/qmi_wwan_patched
-m23qures@maaz-robotics:~$ scp -r quectel/qmi_wwan robohub@labwork5:robohub/quectel/qmi_wwan_patched
+1. m23qures@maaz-robotics:~$ ip addr show
+2. m23qures@maaz-robotics:~$ ping -I wwan0 8.8.8.8
+3. m23qures@maaz-robotics:~$ ping -I wwan0 robohub.eng.uwaterloo.ca
+4. m23qures@maaz-robotics:~$ ping -I wwan0 -4 robohub.eng.uwaterloo.ca
+5. m23qures@maaz-robotics:~$ scp -r quectel/
+6. m23qures@maaz-robotics:~$ scp -r quectel/qmi_wwan/robohub@labwork5:robohub/quectel/qmi_wwan_patched
+7. m23qures@maaz-robotics:~$ scp -r quectel/qmi_wwan robohub@labwork5:robohub/quectel/qmi_wwan_patched
 
 //
 # Install drivers inside the Robot ROS2 based setup below
