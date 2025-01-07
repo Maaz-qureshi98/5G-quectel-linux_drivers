@@ -16,8 +16,8 @@ Step 2: MAIN STEP
 # Install Cutecom software on workstation to check the 5G devices logs 
 Atache the usd cable of device to worstation, allow the usb pot permission from the terminal, follow the below steps:
 1. ls /dev/ttyUSB*
-for permission: 
-Step 1
+Step 1 for usd port permission allocation: 
+
 1. sudo usermod -aG dialout m23qures 
 execute the below
 1. sudo chmod a+rw /dev/ttyUSB0
