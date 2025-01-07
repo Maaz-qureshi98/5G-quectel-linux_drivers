@@ -8,11 +8,11 @@ Step 1:
 1. Compile and install kernel module
 2. sudo modprobe qmi_wwan_q
 
-Step 2: 
-**Start driver
-cd quectel
-sudo ./Quectel_QConnectManager_Linux_V1.6.5/quectel-CM -4 -6 -s ltemobile.apn
-**
+Step 2: MAIN STEP
+1. Start driver
+2. cd quectel
+3. sudo ./Quectel_QConnectManager_Linux_V1.6.5/quectel-CM -4 -6 -s ltemobile.apn
+4. 
 # Install Cutecom software on workstation to check the 5G devices logs 
 Atache the usd cable of device to worstation, allow the usb pot permission from the terminal, follow the below steps:
 1. ls /dev/ttyUSB*
