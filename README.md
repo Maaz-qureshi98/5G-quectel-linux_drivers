@@ -1,4 +1,5 @@
 # Install drivers inside the Workstation used Linux OS (Ubuntu 22.04 LTS)
+'''
 Step 0:
 1. Update firmware
 2. cd QFirehose_Linux_Android_V1.4.16/
@@ -12,6 +13,7 @@ Step 2: MAIN STEP
 Start driver
 cd quectel
 sudo ./Quectel_QConnectManager_Linux_V1.6.5/quectel-CM -4 -6 -s ltemobile.apn
+'''
 //
 # Install Cutecom software on workstation to check the 5G devices logs 
 Atache the usd cable of device to worstation, allow the usb pot permission from the terminal, follow the below steps:
