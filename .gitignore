@@ -1,0 +1,19 @@
+# Build outputs
+*.o
+*.a
+*.so
+build/
+quectel-CM
+quectel-qmi-proxy
+quectel-mbim-proxy
+quectel-atc-proxy
+quectel-qrtr-proxy
+
+# Autotools
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+.deps/
