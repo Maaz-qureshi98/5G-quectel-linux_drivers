@@ -14,7 +14,7 @@ Step 2: MAIN STEP
 2. cd quectel
 3. sudo ./Quectel_QConnectManager_Linux_V1.6.5/quectel-CM -4 -6 -s ltemobile.apn
 # Install Cutecom software on workstation to check the 5G devices logs 
-Atache the usd cable of device to worstation, allow the usb pot permission from the terminal, follow the below steps:
+Atache the usd cable of device to workstation, allow the usb pot permission from the terminal, follow the below steps:
 1. ls /dev/ttyUSB*
 Step 1 for usd port permission allocation: 
 
@@ -29,7 +29,7 @@ Step 2:
 Open cutcom software in the wortstation 
 1. select the devices: /dev/ttyUSB3
 
-Type AT Commands insde the cutecom prompt window
+Type AT Commands inside the cutecom prompt window
 1. ATI
 2. at+cfun=0																											
 3. at+cfun=1																											
@@ -37,7 +37,7 @@ Type AT Commands insde the cutecom prompt window
 5. at+cops?
 
 Some common commands used: 
-in seperate terminal 
+in separate terminal 
 1. m23qures@maaz-robotics:~$ ip addr show
 2. m23qures@maaz-robotics:~$ ping -I wwan0 8.8.8.8
 3. m23qures@maaz-robotics:~$ ping -I wwan0 robohub.eng.uwaterloo.ca
